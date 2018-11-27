@@ -1,0 +1,29 @@
+{
+  "name": "dog-app",
+  "version": "1.0.0",
+  "description": "Dog App. Show your dog photo.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephangriesel/dog-app.git"
+  },
+  "author": "Stephan Griesel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephangriesel/dog-app/issues"
+  },
+  "homepage": "https://github.com/stephangriesel/dog-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
